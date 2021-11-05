@@ -1,0 +1,453 @@
+/* At the top level of your code */
+@media screen and (min-width: 900px) {
+  article {
+    padding: 1rem 3rem;
+  }
+}
+
+/* Nested within another conditional at-rule */
+@supports (display: flex) {
+  @media screen and (min-width: 900px) {
+    article {
+      display: flex;
+    }
+  }
+}
+
+
+
+
+body{
+	margin: 0;
+
+	min-width: 100px;
+	min-height: 200px;
+	
+}
+
+font-family: 'Roboto', sans-serif;
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+li,a,button{
+position: inherit;
+
+font-family: 'Roboto' sans-serif;
+font-weight: 500%;
+font-size: 100%;
+color: white;
+text-decoration: none;
+
+
+}
+
+.aaa{
+
+	position: inherit;
+
+font-family: 'Roboto' sans-serif;
+font-weight: 500%;
+font-size: 100%;
+color: black;
+text-decoration: none;
+}
+
+header{
+
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 2% 10%;
+	height: 30%;
+	background-color: black;
+	margin: -1%;
+
+}
+
+p{
+position: inherit;
+
+font-family: 'Roboto' sans-serif;
+font-weight: 500%;
+font-size: 150%;
+color: black;
+text-decoration: none;
+
+
+}
+
+.logo{
+cursor: pointer;
+width: 160px;
+
+}
+.nav_links{
+
+	list-style: none;
+
+}
+
+
+
+
+.nav_links li {
+
+	display: inline-block;
+	padding: 10px 30px;
+position: relative;
+
+}
+
+.nav_links li, a{
+
+	transition: all .4s ease 0s;
+
+}
+
+.nav_links li, a :hover{
+
+color: orangered ;
+
+}
+
+
+.nav_links li , a :hover , ul .s_loks {
+
+
+
+}
+
+
+button {
+
+
+padding: 9px 30px;
+background-color: orangered;
+border: none;
+border-radius: 50px ;
+cursor: pointer;
+transition: all .4s ease 0s;
+
+}
+
+button:hover{
+
+background-color: rgba(138, 43, 226, 0.5);
+
+
+
+
+}
+
+
+
+.s_loks{
+position: absolute;
+background-color: orangered ;
+
+left: 0;
+top: -390px;
+transition: all .3s ease 0s;
+z-index: -1;
+
+
+}
+
+
+.s_loks li {
+
+	display: block;    
+	padding: 20px 40px;
+	border-top: 1px solid #333 ;
+
+}
+.s_loks li, a {
+
+transition: all .3s ease 0s;
+
+
+
+}
+.s_loks li, a:hover {
+	color: orangered;
+}
+
+
+
+.img1_poz{
+
+position: absolute;
+top: 17%;
+left: 2%;
+}
+.img2_poz{
+
+position: absolute;
+top: 17%;
+left: 34%;
+
+
+}
+.img3_poz{
+
+position: absolute;
+top: 17%;
+left: 66%;
+
+}
+
+.img4_poz{
+
+position: absolute;
+top: 150%;
+left: 2%;
+
+
+
+}
+.img5_poz{
+
+position: absolute;
+top: 150%;
+left: 34%;
+
+
+}
+.img6_poz{
+
+position: absolute;
+top: 150%;
+left: 66%;
+
+}
+
+.text_p1_poz{
+
+position: absolute;
+top:85%;
+left: 2%;
+text-align: 100;
+
+
+}
+.text_p2_poz{
+
+position: absolute;
+top: 85%;
+left: 34%;
+
+
+}
+.text_p3_poz{
+
+position: absolute;
+top: 85%;
+left: 66%;
+
+}
+
+.text_p4_poz{
+
+position: absolute;
+top:215%;
+left: 2%;
+text-align: 100;
+
+
+}
+.text_p5_poz{
+
+position: absolute;
+top: 215%;
+left: 34%;
+
+
+}
+.text_p6_poz{
+
+position: absolute;
+top: 215%;
+left: 66%;
+
+}
+
+
+
+hr{
+
+color: black;
+
+
+}
+.hrp{
+
+top: 0%;
+left: 66%;
+
+}
+
+
+footer{
+	
+}
+.pk{
+
+	
+	position: relative;
+top: 100%;
+left: 50%;
+}
+
+.d{
+	position: absolute;
+	top: 98%;
+	border: none;
+text-align: ;
+width: 100%;
+color: white;
+    background: rgba(47, 79, 79, 1.0); 
+    padding: none; 
+    box-sizing: border-box; 
+
+}
+.d2{
+
+
+position: absolute;
+	top: 20%;
+	border: none;
+text-align: ;width: 50%;
+
+text-align: center;
+
+}
+.b{
+position: absolute;
+left: 35%;
+
+padding: ;
+
+}
+
+
+.f{
+position: fixed;
+width: 100%;
+z-index: 2;
+}
+
+hr{
+	color: black;
+}
+.df{
+
+position: absolute;
+	top: 315%;
+	border: none;
+text-align: ;width: 100%;
+color: black;
+    background: rgba(211, 211, 211, 0.3); 
+    padding: 1%; 
+    box-sizing: border-box; 
+
+
+}
+
+.tb{
+color: black;
+list-style: none;
+
+}
+.marg li{
+
+color: black;
+
+list-style-type: none;
+padding: 2%;
+
+}
+
+.flef{
+
+
+	display: flex;
+
+
+}
+
+.rozm1{
+position: absolute;
+left: 50%;
+
+
+}
+.rozm2{
+position: absolute;
+left: 25%;
+
+}
+.rozm3{
+
+
+}
+
+
+.d3{
+
+position: static;
+	top: 20%;
+	border: none;
+width: 100%;
+
+color: white;
+
+ padding: none; 
+    box-sizing: border-box; 
+
+
+}
+.d4{
+
+position: absolute;
+	top: 235%;
+	border: none;
+text-align: ;width: 100%;
+color: black;
+    background: rgba(211, 211, 211, 0.3); 
+    padding: 1%; 
+    box-sizing: border-box; 
+}
+
+
+.im1{
+	position: absolute ;
+top: 10%;
+left: 2%;
+margin: 0;
+border: none;
+padding: 2;
+
+}
+
+.im2{
+
+position: absolute ;
+top: 10%;
+left: 34%;
+margin: 0;
+border: none;
+padding: 2;
+}
+
+.im3{
+
+position: absolute;
+top: 10%;
+left: 66%;
+margin: 0;
+border: none;
+padding: 2;
+}
